@@ -1,0 +1,23 @@
+{
+  "rows_raw": {
+    "regions": 22,
+    "products": 69,
+    "customers": 2207,
+    "orders": 17111,
+    "order_items": 31840
+  },
+  "rows_clean": {
+    "regions": 22,
+    "products": 69,
+    "customers": 2200,
+    "orders": 16990,
+    "order_items": 31540,
+    "dim_date": 731,
+    "fact_sales": 31540
+  },
+  "rows_rejected_total": 258,
+  "reporting_window": [
+    "2024-01-01",
+    "2025-12-31"
+  ]
+}

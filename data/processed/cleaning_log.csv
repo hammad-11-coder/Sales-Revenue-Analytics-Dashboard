@@ -1,0 +1,42 @@
+rule_id,table,description,action,rows_affected
+R1,regions,Duplicate region_id (keep first),rejected,0
+P0,products,Exact duplicate product rows,dropped,0
+P0b,products,Duplicate product_id with conflicting attributes (keep first),rejected,0
+P2,products,Trim / collapse whitespace in product_name,repaired,3
+P1,products,Standardise category spelling / case / whitespace to the 5 canonical categories,repaired,4
+P1b,products,Category not in the canonical list,rejected,0
+P3,products,"List price/standard cost missing, non-positive, or cost >= price",rejected,0
+C1,customers,Exact duplicate customer rows,dropped,7
+C1b,customers,Duplicate customer_id with conflicting attributes (keep first),rejected,0
+C4,customers,Trim / collapse whitespace in customer_name,repaired,22
+C2,customers,Standardise segment spelling / case / whitespace,repaired,110
+C3,customers,Missing segment set to 'Unknown' (kept: customer still has valid sales),repaired,22
+C3b,customers,Unrecognised segment text set to 'Unknown',repaired,0
+C5,customers,home_region_id missing or not in regions,rejected,0
+O1,orders,Exact duplicate order rows,dropped,68
+O1b,orders,Duplicate order_id with conflicting attributes (keep first),rejected,0
+O2a,orders,order_date in dd/mm/yyyy or dd-Mon-yyyy format parsed to ISO,repaired,511
+O2b,orders,ship_date in dd/mm/yyyy or dd-Mon-yyyy format parsed to ISO,repaired,341
+O2c,orders,order_date missing or unparseable,rejected,0
+O2d,orders,order_date outside the reporting window 2024-01-01..2025-12-31,rejected,0
+O3,orders,Standardise order_status spelling / case / whitespace (incl. 'Canceled'),repaired,682
+O3b,orders,order_status not one of Completed/Cancelled/Returned,rejected,0
+O4,orders,ship_date earlier than order_date: ship_date set to NULL,repaired,34
+O4b,orders,Cancelled order with a ship_date: ship_date set to NULL,repaired,0
+O5a,orders,customer_id missing,rejected,26
+O5b,orders,customer_id not found in customers,rejected,0
+O6,orders,region_id missing or not in regions,rejected,0
+O7,orders,Missing sales_channel set to 'Unknown',repaired,85
+I1,order_items,Exact duplicate order-line rows,dropped,95
+I1b,order_items,Duplicate order_item_id with conflicting attributes (keep first),rejected,0
+I2,order_items,"quantity missing, zero or negative",rejected,48
+I3,order_items,"unit_price missing, zero or negative",rejected,32
+I5,order_items,"discount in (1, 100] interpreted as a percentage and divided by 100",repaired,127
+I5b,order_items,Missing discount treated as 0,repaired,0
+I6,order_items,discount negative or above 100% after conversion,rejected,16
+I8,order_items,product_id not found in products,rejected,32
+I7,order_items,order_id does not exist in orders (orphan line),rejected,32
+I9,order_items,order_id belongs to an order rejected during header cleaning,rejected,45
+I4,order_items,Missing unit_cost imputed from the product master standard cost,repaired,95
+I4b,order_items,unit_cost zero or negative,rejected,0
+O8,orders,Order has no valid order lines after cleaning,rejected,27

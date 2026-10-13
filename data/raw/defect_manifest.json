@@ -1,0 +1,32 @@
+{
+  "customers_duplicate_rows": 7,
+  "customers_missing_segment": 22,
+  "customers_name_whitespace": 22,
+  "customers_segment_variants": 110,
+  "items_bad_unit_price": 32,
+  "items_discount_as_percent": 127,
+  "items_duplicate_rows": 95,
+  "items_in_orders_missing_customer": 45,
+  "items_missing_unit_cost": 95,
+  "items_negative_discount": 16,
+  "items_nonpositive_quantity": 48,
+  "items_orphan_order_reference": 32,
+  "items_unknown_product": 32,
+  "orders_alt_format_order_date": 511,
+  "orders_alt_format_ship_date": 341,
+  "orders_duplicate_rows": 68,
+  "orders_missing_customer_id": 26,
+  "orders_missing_sales_channel": 85,
+  "orders_ship_before_order": 34,
+  "orders_status_variants": 682,
+  "products_category_variants": 4,
+  "products_name_trailing_space": 3,
+  "seed": 42,
+  "truth_rows": {
+    "customers": 2200,
+    "order_items": 31713,
+    "orders": 17043,
+    "products": 69,
+    "regions": 22
+  }
+}

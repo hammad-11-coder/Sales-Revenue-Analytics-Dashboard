@@ -1,0 +1,23 @@
+region_id,region,state,city
+1,North,Delhi,New Delhi
+2,North,Haryana,Gurugram
+3,North,Chandigarh,Chandigarh
+4,North,Rajasthan,Jaipur
+5,North,Uttar Pradesh,Lucknow
+6,South,Karnataka,Bengaluru
+7,South,Tamil Nadu,Chennai
+8,South,Telangana,Hyderabad
+9,South,Kerala,Kochi
+10,East,West Bengal,Kolkata
+11,East,Odisha,Bhubaneswar
+12,East,Bihar,Patna
+13,East,Assam,Guwahati
+14,West,Maharashtra,Mumbai
+15,West,Maharashtra,Pune
+16,West,Gujarat,Ahmedabad
+17,West,Gujarat,Surat
+18,West,Goa,Panaji
+19,Central,Madhya Pradesh,Bhopal
+20,Central,Madhya Pradesh,Indore
+21,Central,Chhattisgarh,Raipur
+22,Central,Madhya Pradesh,Jabalpur

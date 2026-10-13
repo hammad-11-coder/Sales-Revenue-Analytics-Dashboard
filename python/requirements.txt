@@ -1,0 +1,8 @@
+pandas>=2.2
+numpy>=1.26
+matplotlib>=3.8
+pytest>=8.0
+# Optional: only needed to run the notebook
+nbformat>=5.9
+nbconvert>=7.16
+ipykernel>=6.29

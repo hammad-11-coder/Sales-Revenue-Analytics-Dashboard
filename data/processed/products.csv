@@ -1,0 +1,70 @@
+product_id,product_name,category,subcategory,unit_price,unit_cost
+P001,Nexa Phone 5G 128GB,Technology,Smartphones,20520,16696.45
+P002,Nexa Phone Pro 256GB,Technology,Smartphones,60250,48089.01
+P003,Orbit S20 Smartphone,Technology,Smartphones,23380,18270.6
+P004,Lumio Edge 5G,Technology,Smartphones,25820,20471.03
+P005,Veloce Neo Phone,Technology,Smartphones,9610,7812.71
+P006,Aria Book 14 Laptop,Technology,Laptops,48530,39037.25
+P007,Aria Book Pro 16,Technology,Laptops,87330,70792.69
+P008,Kinetic Slim 15 Laptop,Technology,Laptops,44770,37891.79
+P009,Zephyr Gaming Laptop,Technology,Laptops,81460,69743.69
+P010,Veloce Air 13 Ultrabook,Technology,Laptops,72730,59791.34
+P011,Wireless Earbuds Lite,Technology,Accessories,1950,1198.37
+P012,Noise-Cancel Headphones,Technology,Accessories,8710,4883.59
+P013,65W GaN Charger,Technology,Accessories,1800,1134.97
+P014,Bluetooth Speaker Mini,Technology,Accessories,2100,1355.8
+P015,Mechanical Keyboard,Technology,Accessories,2930,1704.37
+P016,Ergo Wireless Mouse,Technology,Accessories,1470,813.28
+P017,USB-C Hub 7-in-1,Technology,Accessories,1980,1213.65
+P018,10000mAh Power Bank,Technology,Accessories,1170,738.33
+P019,Ergonomic Mesh Office Chair,Furniture,Chairs,6700,5507.02
+P020,Executive Leather Chair,Furniture,Chairs,13770,11104.33
+P021,Gaming Chair Pro,Furniture,Chairs,10830,8592.37
+P022,Visitor Chair Set of 2,Furniture,Chairs,6500,5427.57
+P023,Standing Desk Electric,Furniture,Tables,31310,24910.83
+P024,Walnut Writing Desk,Furniture,Tables,11770,9850.71
+P025,Conference Table 6-Seater,Furniture,Tables,32840,27875.24
+P026,Compact Study Table,Furniture,Tables,6770,5818.21
+P027,5-Shelf Bookcase,Furniture,Storage,7760,6260.86
+P028,Steel Filing Cabinet,Furniture,Storage,9780,7799.96
+P029,Wardrobe 3-Door,Furniture,Storage,18270,14880.93
+P030,Shoe Rack Cabinet,Furniture,Storage,3340,2841.8
+P031,A4 Copier Paper Ream 500,Office Supplies,Paper,370,223.07
+P032,Premium Notebook Pack,Office Supplies,Paper,558,320.01
+P033,Sticky Notes Bulk Pack,Office Supplies,Paper,322,191.47
+P034,Spiral Notepad Set,Office Supplies,Paper,370,229.25
+P035,Gel Pen Box of 50,Office Supplies,Writing & Art,258,156.43
+P036,Permanent Marker Set,Office Supplies,Writing & Art,190,115.74
+P037,Highlighter Pack of 10,Office Supplies,Writing & Art,321,201.14
+P038,Mechanical Pencil Set,Office Supplies,Writing & Art,191,118.78
+P039,Heavy Duty Binder 2-inch,Office Supplies,Binders & Storage,276,161.13
+P040,Document Folder Organizer,Office Supplies,Binders & Storage,738,421.85
+P041,Desk Organizer Set,Office Supplies,Binders & Storage,1040,633.74
+P042,Label Maker,Office Supplies,Binders & Storage,2990,1893.58
+P043,Printer Ink Cartridge Black,Office Supplies,Printing,1220,967.21
+P044,Toner Cartridge Laser,Office Supplies,Printing,6920,5280.3
+P045,Air Fryer 4L,Home & Kitchen,Appliances,5080,3403.07
+P046,Mixer Grinder 750W,Home & Kitchen,Appliances,2860,1860.05
+P047,Electric Kettle 1.8L,Home & Kitchen,Appliances,1340,913.74
+P048,Induction Cooktop,Home & Kitchen,Appliances,2820,1852.66
+P049,Robot Vacuum Cleaner,Home & Kitchen,Appliances,10560,7510.64
+P050,Non-Stick Cookware Set,Home & Kitchen,Cookware,1710,1066.72
+P051,Pressure Cooker 5L,Home & Kitchen,Cookware,2970,1930.59
+P052,Cast Iron Skillet,Home & Kitchen,Cookware,1500,934.62
+P053,Stainless Steel Tiffin Set,Home & Kitchen,Cookware,1410,914.12
+P054,LED Table Lamp,Home & Kitchen,Home Decor,1240,859.04
+P055,Wall Clock Modern,Home & Kitchen,Home Decor,680,428.22
+P056,Scented Candle Set,Home & Kitchen,Home Decor,731,511.53
+P057,Cotton Bedsheet King,Home & Kitchen,Home Decor,1330,880.56
+P058,Cotton Casual Shirt,Apparel,Menswear,857,355.09
+P059,Slim Fit Denim Jeans,Apparel,Menswear,2700,1155.75
+P060,Formal Trousers,Apparel,Menswear,1740,760.85
+P061,Polo T-Shirt Pack of 3,Apparel,Menswear,1520,661.22
+P062,Printed Kurta Set,Apparel,Womenswear,1010,463.0
+P063,Silk Blend Saree,Apparel,Womenswear,2590,1167.06
+P064,Cotton Palazzo Pants,Apparel,Womenswear,862,418.54
+P065,Casual Maxi Dress,Apparel,Womenswear,1350,595.67
+P066,Running Shoes Air,Apparel,Footwear,2650,1079.84
+P067,Leather Formal Shoes,Apparel,Footwear,4550,2117.17
+P068,Slip-On Sneakers,Apparel,Footwear,2140,1065.12
+P069,Sports Sandals,Apparel,Footwear,2110,953.23
